@@ -1,3 +1,28 @@
 title: Science Generalization Hypothesis
-url: https://sgh-paradigm.github.io/science-generalization-hypothesis/
-enforce_https: true
+description: A unified theory across science, mathematics, and philosophy.
+baseurl: "" # for GitHub Pages
+url: "https://sgh-paradigm.github.io/science-generalization-hypothesis"
+
+theme: minima
+
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Opening"
+    url: "/opening/"
+  - title: "Philosophy"
+    url: "/philosophy/"
+  - title: "Mathematics"
+    url: "/mathematics/"
+  - title: "Physics"
+    url: "/physics/"
+  - title: "Results"
+    url: "/results/"
+  - title: "Support & Sponsorship"
+    url: "/support/"
+  - title: "Contact"
+    url: "/contact/"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
